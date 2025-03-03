@@ -1,0 +1,232 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+    .single-news .content .meta li {
+        margin-right: 0px;
+    }
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .stellarnav.light a, .stellarnav.light li a {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    body {
+        padding: 20px 0;
+    }
+    .home-content .intro {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .home-content .author-name {
+        font-size: 46px;
+       line-height: 48px;
+    }
+    .button-1 {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+    .single-news .content .meta li {
+        margin-right: 0px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .stellarnav.light a, .stellarnav.light li a {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    body {
+        padding: 20px 0;
+    }
+    .home-content .intro {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .home-content .author-name {
+        font-size: 46px;
+       line-height: 48px;
+    }
+    .button-1 {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+    .resume-info-single::before {
+        display: none;
+    }
+    .projects .nav {
+        position: relative;
+        margin: 0 0 20px;
+        text-align: right;
+        display: block;
+        top: 0;
+    }
+    .single-project {
+        flex: 1 1 33%;
+        max-width: 33%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .stellarnav.light a, .stellarnav.light li a {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .hero-content-container {
+        background: #2ECA7F;
+    }
+    .home-content .author-name {
+        color: #ffffff;
+    }
+    .home-content .info {
+        color: #ffffff;
+    }
+    .button-1 {
+        color: #ffffff !important;
+    }
+    .user-info-box {
+        flex-wrap: wrap;
+    }
+    .page-header {
+        font-size: 30px;
+    }
+    .page-header::before {
+        width: 34px;
+    }
+    .user-info-box .right {
+        padding: 10px 0 0;
+    }
+    .inner-content-container {
+        padding: 20px;
+    }
+    .user-info-box .left {
+        max-width: 100%;
+        text-align: center;
+    }
+    .review-carousel .slick-arrow {
+        display: none !important;
+    }
+    .resume-info-single::before {
+        display: none;
+    }
+    .projects .nav {
+        position: relative;
+        margin: 0 0 20px;
+        text-align: right;
+        display: block;
+        top: 0;
+    }
+    .single-project {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+    .single-news .content {
+        padding: 14px;
+    }
+    .single-news .content .link {
+        position: relative;
+    }
+    .page-header.with-border::after {
+        left: -20px;
+        width: calc(100% + 40px);
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        padding: 20px 0;
+    }
+    .home-content {
+        padding: 50px 20px 20px;
+    }
+    .home-content .intro {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .home-content .author-name {
+        font-size: 46px;
+        line-height: 48px;
+    }
+}
+
+
+/* Small Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    body {
+        padding: 20px 0;
+    }
+    .home-content {
+        padding: 50px 20px 20px;
+    }
+    .home-content .intro {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .home-content .author-name {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .home-content .info {
+        font-size: 16px;
+    }
+    .button-1 {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+    .single-review .box {
+        flex-wrap: wrap;
+    }
+    .single-review .box .content {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .setion-title {
+        font-size: 25px;
+    }
+    .single-project {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .single-news .content {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 14px;
+        -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    .single-news .content .link {
+        position: relative;
+    }
+    .single-news .content .meta li {
+        margin-right: 10px;
+    }
+    .contact-content .mail-address a {
+        font-size: 18px;
+    }
+    .contact-content .phone-number a {
+        font-size: 18px;
+    }
+}
+
+
+/*big from small mobile, small from wide mobile*/
+@media only screen and (min-width: 380px) and (max-width: 480px) {}
